@@ -146,6 +146,12 @@ p.danger{
 
 
 
+.banner2 {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background: rgb(2,0,36);
+  /* background: rgba(75, 67, 217, 0.709); */
+} 
 
 
 

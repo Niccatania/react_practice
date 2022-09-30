@@ -32,7 +32,7 @@ export const NavBar = () => {
     <Navbar  expand="lg" className={scrolled ? "scrolled": ""}>
       <Container> 
         <Navbar.Brand href="#home">Nic Catania</Navbar.Brand>
-        <img src={logo} alt="logo" />
+        {/* <img src={logo} alt="logo" /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>   
         </Navbar.Toggle>
