@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react_practice/static/css/main.187fe20f.css",
+    "main.js": "/react_practice/static/js/main.85138452.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react_practice/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile.jpeg": "/react_practice/static/media/profile.a211977b28fae1197546.jpeg",
+    "static/media/CentraNo2-Bold.ttf": "/react_practice/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/react_practice/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/react_practice/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/email.png": "/react_practice/static/media/email.78dca23f7b8a63f1184b.png",
+    "static/media/revicons.eot": "/react_practice/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/react_practice/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/react_practice/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/react_practice/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
+    "index.html": "/react_practice/index.html",
+    "main.187fe20f.css.map": "/react_practice/static/css/main.187fe20f.css.map",
+    "main.85138452.js.map": "/react_practice/static/js/main.85138452.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react_practice/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.187fe20f.css",
+    "static/js/main.85138452.js"
+  ]
+}
