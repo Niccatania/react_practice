@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
+import navIcon1 from '../assets/img/nav-icon1.svg';
 import logo from "../assets/img/logo.svg";
 import linked from "../assets/img/linked.png";
 import email from "../assets/img/email.png"
@@ -44,12 +45,10 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="#"><img src={""}alt=""/></a>
-                <a href="#"><img src={""}alt=""/></a>
-                {/* <a href="#"><img src={""}alt=""/></a> */}
+            <a href="https://www.linkedin.com/in/niccatania/"><img src={navIcon1} alt="" /></a>
             </div>
             <button className="vvd" onClick={()=> console.log("connect")}><span>
-               Lets connect </span></button>
+               niccatania6@gmail.com</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
