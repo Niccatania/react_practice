@@ -25,7 +25,7 @@ export const Projects = () =>{
         }
       };
     return (
-      <section className="skill" id="skills">
+      <section className="skill" id="projects">
         <div className="mix-div">
 
         </div>
