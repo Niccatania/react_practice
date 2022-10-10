@@ -1,34 +1,68 @@
-import {Container, Col, Row} from  "react-bootstrap";
-export const Projects = () => {
-  const projects = [
-    {
-      title: "DevelUP",
-      description:
-        "A straight to hire developer website to advertise web services",
-      imgUrl: "",
-    },
-    {
-      title: "Move",
-      description: "Social website for enjoyers of the outdoors",
-      imgUrl: "",
-    },
-    {
-      title: "Dinner Decider",
-      description: "An app that uses the spoonacular API to get recipes and a relevant video",
-      imgUrl: "",
-    },
-  ];
-  return(
-    <section className="banner2" id ="home">
-    <Container>
-        <Row className="align-items-center">
-           
-            <Col xs={12} md={6} xl={7}>
-                {/* <span className="tagline">Welcome to my portfolio</span> */}
-                <h1> Projects</h1>
-                 </Col>
-        </Row>
-    </Container>
-</section>
-  )
-};
+import { Container, Row, Col } from "react-bootstrap";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import Move from "../assets/img/main_page.png"
+import Pwa from "../assets/img/pwa.png"
+import Dinner from '../assets/img/gif.gif'
+
+export const Projects = () =>{
+    const responsive = {
+        superLargeDesktop: {
+          breakpoint: { max: 4000, min: 3000 },
+          items: 5
+        },
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 3
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 2
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 }, 
+          items: 1
+        }
+      };
+    return (
+      <section className="skill" id="skills">
+        <div className="mix-div">
+
+        </div>
+        <Container>
+          <Row>
+            <Col>
+            <div className="skill-bx">
+              <h2>
+                Projects
+              </h2>
+<p></p>
+<Carousel responsive={responsive} infinite={true} className="skill-slider">
+<div className="item ">
+    <img className="imgClass" src={Move} alt="Move pprojects" />
+    <h5>Move</h5>
+  </div>
+  <div className="item ">
+    <img className="imgClass" src={Pwa} alt="Pwa" />
+    <h5>PWA Text editor</h5>
+  </div>
+  <div className="item ">
+    <img className="imgClass"  src={Dinner} alt="Dinner Decider" />
+    <h5>Dinner Decider</h5>
+  </div>
+  {/* <div className="item ">
+    <img className="imgClass"  src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"} alt="Image" />
+    <h5>React</h5>
+  </div>
+  <div className="item ">
+    <img className="imgClass"  src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"} alt="Image" />
+    <h5>node</h5>
+  </div> */}
+</Carousel>
+            </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    )
+}
