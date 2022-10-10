@@ -39,15 +39,15 @@ export const Projects = () =>{
 <p></p>
 <Carousel responsive={responsive} infinite={true} className="skill-slider">
 <div className="item ">
-    <img className="imgClass" src={Move} alt="Move pprojects" />
+    <img className="imgClassTwo" src={Move} alt="Move pprojects" />
     <h5>Move</h5>
   </div>
   <div className="item ">
-    <img className="imgClass" src={Pwa} alt="Pwa" />
+    <img className="imgClassTwo" src={Pwa} alt="Pwa" />
     <h5>PWA Text editor</h5>
   </div>
   <div className="item ">
-    <img className="imgClass"  src={Dinner} alt="Dinner Decider" />
+    <img className="imgClassTwo"  src={Dinner} alt="Dinner Decider" />
     <h5>Dinner Decider</h5>
   </div>
   {/* <div className="item ">
