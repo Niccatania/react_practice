@@ -13,14 +13,14 @@ export const Projects = () =>{
         },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
-          items: 3
+          items: 2
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 2
+          items: 1
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 }, 
+          breakpoint: { max: 520, min: 0 }, 
           items: 1
         }
       };
@@ -50,14 +50,6 @@ export const Projects = () =>{
     <img className="imgClassTwo"  src={Dinner} alt="Dinner Decider" />
     <h5>Dinner Decider</h5>
   </div>
-  {/* <div className="item ">
-    <img className="imgClass"  src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"} alt="Image" />
-    <h5>React</h5>
-  </div>
-  <div className="item ">
-    <img className="imgClass"  src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"} alt="Image" />
-    <h5>node</h5>
-  </div> */}
 </Carousel>
             </div>
             </Col>
