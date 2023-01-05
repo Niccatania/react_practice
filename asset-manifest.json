@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_practice/static/css/main.c4494567.css",
-    "main.js": "/react_practice/static/js/main.db53ab0a.js",
+    "main.css": "/react_practice/static/css/main.3ebdd365.css",
+    "main.js": "/react_practice/static/js/main.3cd7e404.js",
     "static/media/gif.gif": "/react_practice/static/media/gif.34033f4cba24130a3aae.gif",
     "static/media/develup.png": "/react_practice/static/media/develup.9c9e4007a796949047f2.png",
     "static/media/pyBLog.png": "/react_practice/static/media/pyBLog.a37f058c87d15ad1bb18.png",
@@ -15,11 +15,11 @@
     "static/media/logo.svg": "/react_practice/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/react_practice/index.html",
     "static/media/nav-icon1.svg": "/react_practice/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.c4494567.css.map": "/react_practice/static/css/main.c4494567.css.map",
-    "main.db53ab0a.js.map": "/react_practice/static/js/main.db53ab0a.js.map"
+    "main.3ebdd365.css.map": "/react_practice/static/css/main.3ebdd365.css.map",
+    "main.3cd7e404.js.map": "/react_practice/static/js/main.3cd7e404.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4494567.css",
-    "static/js/main.db53ab0a.js"
+    "static/css/main.3ebdd365.css",
+    "static/js/main.3cd7e404.js"
   ]
 }
