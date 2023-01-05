@@ -7,6 +7,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import logo from "../assets/img/logo.svg";
 import linked from "../assets/img/linked.png";
 import email from "../assets/img/email.png"
+import twitt from "../assets/img/twitt.png";
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -31,23 +32,25 @@ export const NavBar = () => {
      }
 
   return (
-    <Navbar  expand="lg" className={scrolled ? "scrolled": ""}>
+    <Navbar  expand="lg" className={scrolled ? "scrolled aText": ""}>
       <Container> 
         <Navbar.Brand href="#home">Nic Catania</Navbar.Brand>
-        {/* <img src={logo} alt="logo" /> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>   
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto linkClass">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('home')} >Home</Nav.Link>
-            {/* <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('projects')}><Link to="/Projects">Projects</Link></Nav.Link>
-            <Nav.Link href="#design" className={activeLink === 'design' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('design')}><Link to="/Design">Design</Link></Nav.Link> */}
+             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+            {/*<Nav.Link href="#design" className={activeLink === 'design' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('design')}><Link to="/Design">Design</Link></Nav.Link> */}
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-            <a href="https://www.linkedin.com/in/niccatania/"><img src={navIcon1} alt="" /></a>
+            <a href="https://www.linkedin.com/in/niccatania/"><img src={navIcon1} alt="linkedIn" /></a>
+            </div>
+            <div className="social-icon2">
+            <a href="https://twitter.com/NicCatania"><img src={twitt} alt="twitter" /></a>
             </div>
             <button className="vvd" onClick={()=> console.log("connect")}><span>
                niccatania6@gmail.com</span></button>
