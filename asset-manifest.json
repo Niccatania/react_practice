@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react_practice/static/css/main.3ebdd365.css",
-    "main.js": "/react_practice/static/js/main.3cd7e404.js",
+    "main.js": "/react_practice/static/js/main.fc67f0ea.js",
     "static/media/gif.gif": "/react_practice/static/media/gif.34033f4cba24130a3aae.gif",
     "static/media/develup.png": "/react_practice/static/media/develup.9c9e4007a796949047f2.png",
     "static/media/pyBLog.png": "/react_practice/static/media/pyBLog.a37f058c87d15ad1bb18.png",
@@ -11,15 +11,13 @@
     "static/media/CentraNo2-Bold.ttf": "/react_practice/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/react_practice/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/react_practice/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/email.png": "/react_practice/static/media/email.78dca23f7b8a63f1184b.png",
-    "static/media/logo.svg": "/react_practice/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/react_practice/index.html",
     "static/media/nav-icon1.svg": "/react_practice/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.3ebdd365.css.map": "/react_practice/static/css/main.3ebdd365.css.map",
-    "main.3cd7e404.js.map": "/react_practice/static/js/main.3cd7e404.js.map"
+    "main.fc67f0ea.js.map": "/react_practice/static/js/main.fc67f0ea.js.map"
   },
   "entrypoints": [
     "static/css/main.3ebdd365.css",
-    "static/js/main.3cd7e404.js"
+    "static/js/main.fc67f0ea.js"
   ]
 }
