@@ -4,9 +4,6 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
 import {Link} from "react-router-dom"
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import logo from "../assets/img/logo.svg";
-import linked from "../assets/img/linked.png";
-import email from "../assets/img/email.png"
 import twitt from "../assets/img/twitt.png";
 
 export const NavBar = () => {
@@ -41,9 +38,8 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto linkClass">
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('home')} >Home</Nav.Link>
-             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            {/*<Nav.Link href="#design" className={activeLink === 'design' ? 'active navbar-link': 'navbar-link'} onClick={ () => onUpdateActiveLink('design')}><Link to="/Design">Design</Link></Nav.Link> */}
+      
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
@@ -53,7 +49,7 @@ export const NavBar = () => {
             <a href="https://twitter.com/NicCatania"><img src={twitt} alt="twitter" /></a>
             </div>
             <button className="vvd" onClick={()=> console.log("connect")}><span>
-               niccatania6@gmail.com</span></button>
+            nicjcatania@gmail.com</span></button>
           </span>
         </Navbar.Collapse>
       </Container>

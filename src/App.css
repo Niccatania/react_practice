@@ -42,6 +42,8 @@ h1, h2, h3 ,h4 ,h5 ,h6{
   line-height: normal ;
 }
 
+/* navbar styling */
+
 nav.navbar {
   padding: 18px 0;
   position:fixed;
@@ -87,6 +89,9 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+
+/* Icon Styling(Twitter, Linkedin) */
+
 
 .social-icon{
   display: inline-block;
@@ -148,6 +153,8 @@ span.navbar-text {
   background: linear-gradient(332deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,18,127,1) 38%, rgba(8,34,137,1) 43%, rgba(6,71,162,1) 55%, rgba(5,99,181,1) 64%, rgba(5,108,187,1) 67%, rgba(0,212,255,1) 100%);
  
 }
+
+
 p.success {
   color: green;
 }
