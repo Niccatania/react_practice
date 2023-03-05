@@ -38,16 +38,16 @@ export const Projects = () =>{
                 Projects
               </h2>
 
-<div className="item hoverLink">
-    <a className=""href="https://move.herokuapp.com/" ><img className="imgClassTwo " src={Move} alt="Move projects" /> </a>
-    <h5 className="item ">Move</h5>
-  </div>
-
-  <div className="item hoverLink">
+              <div className="item hoverLink">
     <a className=""href="https://develup.herokuapp.com/" ><img className="imgClassTwo " src={develup} alt="develup projects" /> </a>
     <h5 className="item ">Develup</h5>
   </div>
   
+
+<div className="item hoverLink">
+    <a className=""href="https://move.herokuapp.com/" ><img className="imgClassTwo " src={Move} alt="Move projects" /> </a>
+    <h5 className="item ">Move</h5>
+  </div>
 
 <div className="item hoverLink">
     <a href="https://Niccatania.github.io/Dinner_Decider/"> <img className="imgClassTwo"  src={Dinner} alt="Dinner Decider" /></a>
