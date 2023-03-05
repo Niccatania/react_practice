@@ -3,7 +3,7 @@ import Move from "../assets/img/move2.png"
 import Pwa from "../assets/img/pwa.png"
 import Dinner from '../assets/img/dd.png'
 import pyBlog from '../assets/img/pyBLog.png'
-import develup from "../assets/img/develup.png"
+import develup from "../assets/img/devop.png"
 
 export const Projects = () =>{
     const responsive = {
