@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react_practice/static/css/main.68818331.css",
-    "main.js": "/react_practice/static/js/main.dfff4303.js",
+    "main.js": "/react_practice/static/js/main.a7feb0e2.js",
     "static/media/dd.png": "/react_practice/static/media/dd.a1ab347c9bf6e1a1dabb.png",
-    "static/media/develup.png": "/react_practice/static/media/develup.9c9e4007a796949047f2.png",
     "static/media/pyBLog.png": "/react_practice/static/media/pyBLog.a37f058c87d15ad1bb18.png",
     "static/media/move2.png": "/react_practice/static/media/move2.be56fb5fada43f501190.png",
     "static/media/pwa.png": "/react_practice/static/media/pwa.ce26bc90b9374c83322c.png",
+    "static/media/devop.png": "/react_practice/static/media/devop.f62ad7b4b252b4452d3c.png",
     "static/media/profile.jpeg": "/react_practice/static/media/profile.a211977b28fae1197546.jpeg",
     "static/media/CentraNo2-Bold.ttf": "/react_practice/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/react_practice/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -14,10 +14,10 @@
     "index.html": "/react_practice/index.html",
     "static/media/nav-icon1.svg": "/react_practice/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.68818331.css.map": "/react_practice/static/css/main.68818331.css.map",
-    "main.dfff4303.js.map": "/react_practice/static/js/main.dfff4303.js.map"
+    "main.a7feb0e2.js.map": "/react_practice/static/js/main.a7feb0e2.js.map"
   },
   "entrypoints": [
     "static/css/main.68818331.css",
-    "static/js/main.dfff4303.js"
+    "static/js/main.a7feb0e2.js"
   ]
 }
