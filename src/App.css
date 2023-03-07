@@ -63,6 +63,7 @@ nav.navbar.scrolled {
 
 nav.navbar a.navbar-brand {
   width:  9%;
+  margin-right: 40px;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -89,6 +90,17 @@ span.navbar-text {
   display: flex;
   align-items: center;
 }
+
+nav.navbar.scrolled .navbar-nav .nav-link.navbar-link {
+  color: #000000 !important;
+}
+
+nav.navbar.scrolled .social-icon a img,
+nav.navbar.scrolled .social-icon2 a img,
+nav.navbar.scrolled .vvd {
+  filter: invert(1);
+}
+
 
 
 
@@ -298,6 +310,7 @@ p.danger{
 
 .navbar-scrolled{
 background-color: white ;
+color: #000000;
 
 opacity: 0.5;
 } 
